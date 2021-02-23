@@ -1,0 +1,29 @@
+These printing tips provided by Sandra (last updated 20180418)
+
+To Print a Poster on Multiple Pages
+
+Save the poster as a png or tif.
+File, Save As, change the Save as type to png or tif.
+
+Open the file in Paint.
+Select: File, Print -> Page Setup (Vista and 7), or File -> Page Setup (in XP)
+Under Scaling, select Fit to and change the setting to something like “2 by 2 page(s)”
+Click OK
+Print the image from Paint, and make sure to select “All Pages”
+File, Print, All
+
+Note: Do File, Print, Preview if you want to see how it will look first.
+
+
+
+Another potential option if have a pdf file of high resolution:
+Open the pdf
+File
+Print
+select printer
+Click the Poster button (in line with Size Poster Multiple Booklet)
+Note the number of pages, adjest the size as needed.
+Print
+(note: depending on setting of Adobe, might have trouble getting to print)
+
+
