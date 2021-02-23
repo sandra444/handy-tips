@@ -1,0 +1,38 @@
+
+<!--Handy things to remember for programming in HTML-->
+
+<!--consider only using <p> tags for paragraphs (text only)-->
+<!--consider <br> tags to separate blocks of text (not other elements)-->
+
+<!--collapse and expand with ONLY HTML and bootstrap - no javascript or css override-->
+<div>
+	<div class="alert alert-info" role="alert">
+	    <button class="btn btn-info" type="button" data-toggle="collapse" data-target=".example_expand" aria-expanded="false" aria-controls="example_expand">
+	        Show/Hide Page Help
+	    </button>
+	    <div class="collapse large-padding-top example_expand">
+
+	        <p>Tips and Notes:</p>
+	        <ul>
+	            <li>a tip or note</li>
+	        </ul>
+
+	    </div>
+	</div>
+
+
+	<div>
+		<p>some more stuff on the page</p>
+	</div>
+
+	<div class="collapse large-padding-top example_expand">
+	    <div class="alert alert-info" role="alert">
+	        <p>Another example with just a paragraph of information</p>
+		    <ul>
+	            <li>another tip or note</li>
+	        </ul>
+	    </div>
+	</div>
+</div>
+
+

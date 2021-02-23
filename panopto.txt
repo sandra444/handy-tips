@@ -1,0 +1,39 @@
+Handy things to remember - Panopto
+
+
+Editing:
+To screen stretch, have to use Adobe (cannot do in panopto)
+Can easily cut sections out in panopto
+Alternative to editing in Adobe is the focus tool (still figuring out how to use it correctly)
+
+Focus Tool:
+focus tool - https://support.panopto.com/s/article/Use-the-Focus-Tool
+focus tool - https://www.etskb-fac.cidde.pitt.edu/panopto/panopto-editor-update/
+
+Analytics:
+Login to the UPDDI2 account
+Search for: Panopto
+Click to enter the Lecture Capture (Panopto)
+Click on My Folder on the left sidebar
+Click on the Folder of interest (MPS-Db Videos - optional)
+Click on the bar chart in the top right corner (near the network and gear)
+Adjust the time window in the top right
+
+Note the Download Reports section in the bottom left
+For Celeste,
+I screen shot the loast 90 days
+change the time window to All times
+download the Views and Downloads by Day report.
+
+
+Sharing/upload:
+Think pick Edit?
+Under Share
+-Embed
+-Anyone with the link
+
+Under Overview
+-Uncheck the Allow viewers to post comments box
+
+
+

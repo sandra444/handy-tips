@@ -1,0 +1,11 @@
+Handy things to remember for programming in git
+
+Remove files that were committed to git but do not want there
+git rm --cached <file_path>
+on windows machine, to do the git commands
+1-open the folder in explorer
+2-right click in empty space
+3-select Git Bash Here
+you are here for the tips folder in windows
+.....Documents/github/tips/handy-tips (main)
+$
