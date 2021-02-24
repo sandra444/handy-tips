@@ -1,0 +1,10 @@
+Source of info to make juypter work on ubuntu
+https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-ubuntu-18-04
+(tips_env) (base) sck49@sck49-Latitude-E5430-non-vPro:~/github/tips$ 
+
+To start:
+(tips_env) (base) sck49@sck49-Latitude-E5430-non-vPro:~/github/tips$ jupyter notebook
+
+
+at this location:
+http://localhost:8888/tree

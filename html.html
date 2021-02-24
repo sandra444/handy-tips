@@ -1,6 +1,13 @@
 
 <!--Handy things to remember for programming in HTML-->
 
+{# HANDY Open class container - use Ctrl+Shift+M to jump to close#}
+<div class="container">
+</div>
+
+{# HANDY accessing a dictionary in html dictionary python to javascript   #}
+<span class="gse0">{{ glossary_dict.studycomponent_def|linebreaks }}</span>
+
 <!--consider only using <p> tags for paragraphs (text only)-->
 <!--consider <br> tags to separate blocks of text (not other elements)-->
 
@@ -33,6 +40,48 @@
 	        </ul>
 	    </div>
 	</div>
+</div>
+
+{# Show form field as text .name vrs .value HANDY  #}
+{# name {{ form.form_filename_only.name }} #}
+{# value {{ form.form_filename_only.value }} #}
+
+when using formsets in forms
+{# need the following line (with correct formset name) for each formset wish to save on submit - HANDY   #}
+{{ formset.management_form }}
+
+{# this is how to show the box to let the user check to delete - HANDY #}
+{{ form2.DELETE }}
+
+{# This takes FOREVER (HANDY) if queryset is not passed (dropdowns often need prefetches) #}
+{# Study should be passed in backend - do not to the following!#}
+{# {% include 'generic_field.html' with field=form.study label="Study" %}#}
+
+<div class="plate-map-page-radio-contents">
+{#  IMPORTANT - populating the pick list depends on this radio button being changed to pick a block!!!!#}
+{#  <label><input type="radio" name="standard_pick" value="no_calibration" checked> <b class="plate-map-radio-spacing">No Processing (send Raw Values)</b> </label>#}
+{#  <label><input type="radio" name="standard_pick" value="pick_block"> <b class="plate-map-radio-spacing">Pick a Block of Data With Standards </b></label>#}
+{#  {{ form.radio_standard_option_use_or_not }}#}
+{#  HANDY to pass radio buttons from forms #}
+    {% for radio in form.radio_standard_option_use_or_not %}
+        {{ radio.tag }}
+        <label for="value_{{ forloop.counter0 }}">
+            <b class="plate-map-radio-spacing">{{ radio.choice_label }}</b>
+        </label>
+    {% endfor %}
+</div>
+
+Depending on how many forms and where/if errors are displayed, this is an option
+<div>
+    <h2>For Development Testing</h2>
+    Use for error checking
+    For testing<br>
+    form.errors<br>
+    {{ form.errors }}<br>
+    formset.errors<br>
+    {{ formset.errors }}<br>
+    value_formset.errors<br>
+    {{ value_formset.errors }}<br>
 </div>
 
 
