@@ -17,6 +17,12 @@ $( "#col-index1" ).click(function(e) {
 	//other stuff
 });
 
+
+// Watch quote carefully - top is valid, bottom is not
+                        $('td[ikey*="' + tikey + '"][row-index*="' + tirow + '"]')
+var thisElementList1 = '$("td[ikey*=' + "'" + tikey + "'][row-index*='" + tirow + "']" + '")';
+
+
 // think tried this and do not think it worked the same way in all cases, but maybe remember wrong or other issue involved
 // instead of
 var a_string = "a";
@@ -26,6 +32,9 @@ $('#id_location_' + a_string);
 
 // when passing variables to includes, just put a space between them
 // do not forget about the option for const variables....
+
+// a way to get a deep copy deepcopy
+new variable/object = JSON.parse(JSON.stringify(myObject))
 
 
 // HANDY - if something is dynamically generated on the page, MUST have the $(document) before
